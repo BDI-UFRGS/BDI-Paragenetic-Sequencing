@@ -6,8 +6,8 @@ import bdi.model.Modifier;
  * @author Lucas Hagen
  */
 
-public class ContituinteMacroporosidade extends Constituinte {
+public class MacroporosityConstituent extends Constituent {
 
-    Modifier modificador;
+    Modifier modifier;
 
 }

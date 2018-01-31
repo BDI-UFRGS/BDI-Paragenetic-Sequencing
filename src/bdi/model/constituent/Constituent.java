@@ -4,10 +4,10 @@ package bdi.model.constituent;
  * @author Lucas Hagen
  */
 
-public class Constituinte {
+public class Constituent {
 
     String name;
     String location;
-    String conjuntoConstituinte;
+    String constituentSet;
 
 }

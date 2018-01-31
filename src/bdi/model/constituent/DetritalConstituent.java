@@ -6,8 +6,8 @@ import bdi.model.Modifier;
  * @author Lucas Hagen
  */
 
-public class ConstituinteDetritico extends ConstituinteMineral {
+public class DetritalConstituent extends MineralConstituent {
 
-    Modifier modificador;
+    Modifier modifier;
 
 }
