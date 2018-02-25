@@ -1,6 +1,7 @@
 package bdi.model.constituent;
 
-import bdi.model.Modifier;
+import bdi.model.modifier.DetritalModifier;
+import bdi.model.modifier.Modifier;
 
 /**
  * @author Lucas Hagen
@@ -8,6 +9,6 @@ import bdi.model.Modifier;
 
 public class DetritalConstituent extends MineralConstituent {
 
-    Modifier modifier;
+    DetritalModifier modifier;
 
 }

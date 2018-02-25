@@ -1,4 +1,4 @@
-package bdi.model;
+package bdi.model.modifier;
 
 /**
  * @author Lucas Hagen

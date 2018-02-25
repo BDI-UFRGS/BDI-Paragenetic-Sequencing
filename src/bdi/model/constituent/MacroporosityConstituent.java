@@ -1,13 +1,14 @@
 package bdi.model.constituent;
 
-import bdi.model.Modifier;
+import bdi.model.modifier.MacroporosityModifier;
+import bdi.model.modifier.Modifier;
 
 /**
  * @author Lucas Hagen
  */
 
-public class MacroporosityConstituent extends Constituent {
+public class MacroporosityConstituent extends Constituent implements ParageneticRelationConstituent {
 
-    Modifier modifier;
+    MacroporosityModifier modifier;
 
 }

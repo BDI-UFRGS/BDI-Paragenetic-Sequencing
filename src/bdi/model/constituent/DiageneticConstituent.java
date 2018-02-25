@@ -1,14 +1,15 @@
 package bdi.model.constituent;
 
-import bdi.model.Modifier;
+import bdi.model.modifier.DiageneticModifier;
+import bdi.model.modifier.Modifier;
 
 /**
  * @author Lucas Hagen
  */
 
-public class DiageneticConstituent extends MineralConstituent {
+public class DiageneticConstituent extends MineralConstituent implements ParageneticRelationConstituent {
 
     String habit;
-    Modifier modifier;
+    DiageneticModifier modifier;
 
 }
