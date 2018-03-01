@@ -19,7 +19,13 @@ public abstract class Constituent {
     }
 
     protected static String[] splitAttributes(String line) {
-        return line.split(DataLoaderPattern.SPLITTER);
+        String[] result = line.split(DataLoaderPattern.SPLITTER);
+
+/*        System.out.println("'" + line + "'");
+        for(String a : result)
+            System.out.println("\t'" + a + "'");*/
+
+        return result;
     }
 
     public static Constituent fromString(String args) {

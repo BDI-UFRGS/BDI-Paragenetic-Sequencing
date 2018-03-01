@@ -10,7 +10,7 @@ public class DataLoaderPattern {
     public static String PRIMARY_CONTITUENT_TAG = "[PRIMARY]";
     public static String DIAGENETIC_CONTITUENT_TAG = "[DIAGENETIC]";
     public static String POROSITY_CONTITUENT_TAG = "[POROSITY]";
-    public static String SPLITTER = "(( +- ?)|( ?- +))";
+    public static String SPLITTER = "( ?- )|( - ?)" /*"(?<= )-(?= )"*/;
 
     /*
 
