@@ -1,6 +1,5 @@
 package bdi.model.loader.csv;
 
-import au.com.bytecode.opencsv.CSVParser;
 import au.com.bytecode.opencsv.CSVReader;
 
 import java.io.FileNotFoundException;
@@ -25,7 +24,7 @@ public class DataLoader {
 
         int sections = initializeRead(reader);
 
-        while()
+        //while()
     }
 
     public int initializeRead(CSVReader reader) throws IOException {

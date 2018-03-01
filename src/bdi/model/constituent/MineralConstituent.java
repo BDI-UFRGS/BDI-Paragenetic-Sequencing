@@ -6,4 +6,7 @@ package bdi.model.constituent;
 
 public class MineralConstituent extends Constituent {
 
+    protected MineralConstituent(String name, String location, String constituentSet) {
+        super(name, location, constituentSet);
+    }
 }
